@@ -45,6 +45,7 @@ THEORY :
 - Implemented using a single loop across the number of columns.
 
 ALGORITHM:
+
 (01). TAKE MATRIX INPUT FROM USER AND DISPLAY IT
 1. Start.
 2. Ask the user to enter the number of rows.
@@ -134,4 +135,5 @@ ALGORITHM:
    - Else print "Both are equal".
 9. End.
 
-
+CONCLUSION:
+This experiment demonstrated the use of multidimensional arrays in C++ to store and process data in matrix form. Various operations like input/output, addition, multiplication, diagonal sum, transpose, and row comparison were implemented, showing how nested loops and indexing can be used to efficiently manipulate two-dimensional data structures.
