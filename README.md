@@ -1,7 +1,7 @@
 # Matrix-implementation-in-cpp
-AIM : MULTIDIMENSIONAL ARRAY 
+# AIM : MULTIDIMENSIONAL ARRAY 
 
-THEORY :
+# THEORY :
 1. Take Matrix Input from User & Display It
 - A matrix is a 2D array arranged in rows and columns.
 - To take input, loop through each row and column using nested loops.
@@ -44,7 +44,7 @@ THEORY :
 - Useful for ranking, sorting logic, or data analysis.
 - Implemented using a single loop across the number of columns.
 
-ALGORITHM:
+# ALGORITHM:
 
 (01). TAKE MATRIX INPUT FROM USER AND DISPLAY IT
 1. Start.
@@ -135,5 +135,5 @@ ALGORITHM:
    - Else print "Both are equal".
 9. End.
 
-CONCLUSION:
+# CONCLUSION:
 This experiment demonstrated the use of multidimensional arrays in C++ to store and process data in matrix form. Various operations like input/output, addition, multiplication, diagonal sum, transpose, and row comparison were implemented, showing how nested loops and indexing can be used to efficiently manipulate two-dimensional data structures.
