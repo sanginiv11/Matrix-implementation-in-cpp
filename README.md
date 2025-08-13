@@ -133,6 +133,5 @@ ALGORITHM:
    - Else if mat[j] < mat[j], print "Second row is greater".[1]
    - Else print "Both are equal".
 9. End.
-[6] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/85057922/9c6731b2-be29-42b3-be15-e2e6fcf99bd8/comparerowndcol.cpp
 
 
