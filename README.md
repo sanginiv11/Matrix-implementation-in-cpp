@@ -1,22 +1,23 @@
 # Matrix-implementation-in-cpp
 # AIM : MULTIDIMENSIONAL ARRAY 
 
+
 # THEORY :
-1. Take Matrix Input from User & Display It
+# 1. Take Matrix Input from User & Display It
 - A matrix is a 2D array arranged in rows and columns.
 - To take input, loop through each row and column using nested loops.
 - Store each entered value into the 2D array at the correct index.
 - To display it, again loop over rows and columns, printing each element with formatting.
 - This operation does not modify the data; it only shows the stored matrix.
 
-2. Addition of Two Matrices
+# 2. Addition of Two Matrices
 - Matrix addition can only be performed if two matrices have the same dimensions.
 - Each element in the result is the sum of corresponding elements from both matrices.
 - Requires nested loops to iterate over every position $$i][j].
 - Result is a new matrix containing the computed sums.
 - Commonly used in image processing and mathematical computations.
 
-3. Multiplication of Two Matrices
+# 3. Multiplication of Two Matrices
 - Possible only if columns of first matrix = rows of second matrix.
 - Each result element is the dot product of a row from the first matrix and a column from the second.
 - Implemented using three nested loops (for rows, columns, and dot product calculation).
@@ -30,14 +31,14 @@
 - The sum of diagonals is calculated separately and then added together.
 - If the matrix size is odd, the center element is counted twice, so subtract it once.
 
-5. Transpose of a Matrix
+# 5. Transpose of a Matrix
 - The transpose of a matrix is formed by interchanging rows and columns.
 - If the original matrix is m × n, its transpose is n × m.
 - Implemented by swapping the index position: new[j][i]=old[i][j]
 - Transpose is used in matrix symmetry checks and mathematical operations.
 - Requires only read and print operations; no new values are calculated.
 
-6. Compare Elements of First Row to Second Row
+# 6. Compare Elements of First Row to Second Row
 - Requires a matrix with at least two rows.
 - Each element of the first row is compared with the corresponding element of the second row (same column).
 - The comparison results can be: first greater, second greater, or equal.
@@ -46,7 +47,7 @@
 
 # ALGORITHM:
 
-(01). TAKE MATRIX INPUT FROM USER AND DISPLAY IT
+# (01). TAKE MATRIX INPUT FROM USER AND DISPLAY IT
 1. Start.
 2. Ask the user to enter the number of rows.
 3. Ask the user to enter the number of columns.
@@ -62,7 +63,7 @@
    b. Move to next line.
 9. End.
 
-(02). ADDITION OF MATRIX
+# (02). ADDITION OF MATRIX
 1. Start.
 2. Ask the user to enter number of rows.
 3. Ask the user to enter number of columns.
@@ -77,7 +78,7 @@
 9. Print 'sum' matrix in row-column format.
 10. End.
 
-(03).MULTIPLYING TWO MATRICES.
+# (03).MULTIPLYING TWO MATRICES.
 
 1. Start.
 2. Ask the user to enter rows and columns of the first matrix 'r1', 'c1'.
@@ -95,7 +96,7 @@
 10. Print matrix 'result' in row-column form.
 11. End.
 
-(04). DIAGONAL ADDITION
+# (04). DIAGONAL ADDITION
 
 1. Start.
 2. Ask the user to enter the size n of the square matrix.
@@ -113,7 +114,7 @@
 11. Display the adjusted diagonal sum.
 12. End.
 
-(05). TRANSPOSE OF A MATRIX
+# (05). TRANSPOSE OF A MATRIX
 1. Start.
 2. Ask the user to enter number of rows.
 3. Ask the user to enter number of columns.
@@ -126,7 +127,7 @@
    - Move to next line after each row of transpose.
 8. End.
 
-(06). COMPARE TWO ROWS COLUMN-WISE 
+# (06). COMPARE TWO ROWS COLUMN-WISE 
 1. Start.
 2. Ask the user to enter number of rows.
 3. Ask the user to enter number of columns.
