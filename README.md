@@ -3,7 +3,7 @@
 
 
 # THEORY :
-# 1. Take Matrix Input from User & Display It
+**1. Take Matrix Input from User & Display It**
 - A matrix is a 2D array arranged in rows and columns.
 - To take input, loop through each row and column using nested loops.
 - Store each entered value into the 2D array at the correct index.
